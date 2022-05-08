@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div id="contact" className="footer">
       <h2>Our Social Media Handles</h2>
       <div className="footerIcons">
         <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" />

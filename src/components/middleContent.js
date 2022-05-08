@@ -2,7 +2,7 @@ import React from "react";
 
 function MiddleContent() {
   return (
-    <div>
+    <div id="about">
       <div className="mdlCnt">
         <img src="https://cdn.dribbble.com/users/239075/screenshots/16208373/media/fae27625a464c1638994122d18b816ed.jpg?compress=1&resize=400x300&vertical=top" />
         <div className="txtCont">

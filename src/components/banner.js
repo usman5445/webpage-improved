@@ -5,7 +5,7 @@ function Banner() {
     <div className="banner">
       <img
         className="bnrImg"
-        src="https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467__340.jpg"
+        src="https://www.wearedna.co.uk/media/transfer/5.%20shining%20a%20light%20on%20dark%20mode_1024%20x%20400%20(banner%20small).png"
       />
       <h1>A Website That Thinks About You!</h1>
       <p>

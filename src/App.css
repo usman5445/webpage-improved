@@ -6,64 +6,85 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
+  background-color: lightgray;
 }
 .nav button {
   border-radius: 10px;
   font-size: large;
 }
+.nav:hover {
+  box-shadow: 0 0 30px;
+}
 .nav {
-  background-color: rgb(0, 136, 255);
+  background-color: rgb(56, 56, 56);
   display: flex;
   align-items: center;
-  position: relative;
+  position: fixed;
   justify-content: center;
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px;
+  z-index: 10;
+  width: 100%;
+  top: 0;
 }
 .btn {
   position: absolute;
   right: 10px;
 }
 .nav h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
+  margin: 0;
 }
 .nav button {
   margin: 10px;
   padding: 5px;
   border: none;
+  border: double 5px gray;
+}
+.nav button:hover {
+  box-shadow: 0 0 5px white;
+  background-color: yellow;
 }
 .banner {
+  margin-top: 57px;
   width: 100%;
   height: 50%;
   position: relative;
 }
 .bnrImg {
+  border-radius: 20px;
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 .banner h1 {
   font-size: xx-large;
-  color: white;
+  color: rgb(193, 238, 255);
   position: absolute;
   left: 30px;
   top: 40px;
 }
 .banner button {
   position: absolute;
-  left: 30px;
-  top: 250px;
+  left: 47%;
+  top: 85%;
   padding: 20px;
   font-size: larger;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(246, 92, 118);
   border-radius: 10px;
   border: none;
+  color: white;
+}
+.banner button:hover {
+  box-shadow: 0 0 20px yellow;
 }
 .banner p {
-  font-size: large;
+  font-size: 1.5rem;
   color: white;
   position: absolute;
   left: 30px;
   top: 100px;
-  width: 30%;
+  width: 20%;
 }
 .mdlCnt {
   display: flex;
@@ -73,15 +94,24 @@ body {
   box-shadow: 0 0 10px;
   margin: 20px;
   border-radius: 30px;
+  background-color: rgb(95, 93, 93);
 }
 .mdlCnt img {
   border-radius: 30px;
   margin: 20px;
+  box-shadow: 0 0 10px;
 }
 .mdlCnt h1,
 p {
-  font-size: larger;
+  font-size: 1.5rem;
+  color: white;
 }
+.mdlCnt h2 {
+  font-size: 3rem;
+  color: yellow;
+  margin-bottom: 50px;
+}
+
 .footerIcons img {
   width: 3%;
   height: 3%;
@@ -99,9 +129,18 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(51, 51, 51);
 }
 .links a {
-  color: black;
+  color: white;
   margin: 10px;
   font-size: larger;
+}
+.footer p,
+h2 {
+  color: white;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
